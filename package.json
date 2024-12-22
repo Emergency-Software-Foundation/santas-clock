@@ -1,0 +1,16 @@
+{
+  "name": "santasclock",
+  "version": "1.0.0",
+  "description": "A geo coordinate to timezone offset conversion service",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Toby McDonald, Emergency Software Foundation",
+  "dependencies": {
+    "express": "^4.21.2",
+    "geo-tz": "^8.1.2",
+    "moment-timezone": "^0.5.46"
+  }
+}

@@ -32,7 +32,7 @@ api.get('/api/v1/timezone/', (req, res) => {
 
 //Error handling
 api.use((req, res, next) => {
-	console.log("CLIENT > [404] Attempted to access non-existant endpoint: "+req.path+req.query+"; NOT FOUND");
+	console.log("CLIENT > [404] Attempted to access non-existant endpoint: "+req.path+"; NOT FOUND");
 	res.status(404).json({
 		"error": 404,
 		"message": "That endpoint does not exist."
